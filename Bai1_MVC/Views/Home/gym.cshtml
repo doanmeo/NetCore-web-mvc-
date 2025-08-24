@@ -1,0 +1,159 @@
+﻿@{
+    ViewData["Title"] = "Phòng Gym Veef Gym - Nâng Tầm Sức Mạnh";
+}
+
+<style>
+    :root {
+        --primary-color: #ff3e3e;
+        --secondary-color: #1a1a1a;
+        --text-light: #f8f9fa;
+        --text-dark: #212529;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .hero-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x1080?text=Gym+Background') no-repeat center center/cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--text-light);
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+            margin-top: 1rem;
+        }
+
+    .btn-primary-custom {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        font-weight: 600;
+        padding: 0.75rem 2rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+        .btn-primary-custom:hover {
+            background-color: darken(var(--primary-color), 10%);
+            border-color: darken(var(--primary-color), 10%);
+            transform: translateY(-3px);
+        }
+
+    .features-section .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: none;
+        background: #f8f9fa;
+    }
+
+        .features-section .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+        }
+
+    .about-us-section {
+        background-color: var(--secondary-color);
+        color: var(--text-light);
+    }
+
+    .testimonial-section {
+        background-color: #f1f2f6;
+    }
+
+        .testimonial-section blockquote {
+            font-style: italic;
+            font-size: 1.1rem;
+        }
+</style>
+
+<div class="hero-section d-flex align-items-center justify-content-center text-white text-center">
+    <div>
+        <h1 class="display-3 font-weight-bold animate__animated animate__fadeInDown">VEER GYM</h1>
+        <p class="lead mt-3 animate__animated animate__fadeInUp">Bắt đầu hành trình chinh phục cơ thể mơ ước ngay hôm nay!</p>
+        <a href="#contact" class="btn btn-lg btn-primary-custom mt-4 animate__animated animate__zoomIn">Đăng ký ngay</a>
+    </div>
+</div>
+
+<hr class="my-5" />
+
+<div class="container-fluid features-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 display-4 font-weight-bold">Dịch Vụ Nổi Bật</h2>
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 p-4 shadow-sm">
+                    <i class="fas fa-dumbbell fa-4x text-primary mb-3"></i>
+                    <h4 class="card-title mt-3">Thiết Bị Hiện Đại</h4>
+                    <p class="card-text text-muted">Cơ sở vật chất đạt chuẩn quốc tế, giúp bạn tập luyện an toàn và hiệu quả.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 p-4 shadow-sm">
+                    <i class="fas fa-user-friends fa-4x text-primary mb-3"></i>
+                    <h4 class="card-title mt-3">Huấn Luyện Viên Cá Nhân</h4>
+                    <p class="card-text text-muted">Đội ngũ PT chuyên nghiệp, tận tâm, giúp bạn có lộ trình tập luyện phù hợp nhất.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 p-4 shadow-sm">
+                    <i class="fas fa-users fa-4x text-primary mb-3"></i>
+                    <h4 class="card-title mt-3">Lớp Tập Nhóm</h4>
+                    <p class="card-text text-muted">Tham gia các lớp Yoga, Zumba, Kick-boxing... với không khí sôi động, vui vẻ.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="my-5" />
+
+<div class="container-fluid about-us-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <img src="https://via.placeholder.com/600x400?text=Gym+Interior" class="img-fluid rounded shadow" alt="Gym Interior">
+            </div>
+            <div class="col-lg-6 text-center text-lg-left">
+                <h2 class="display-4 font-weight-bold">Phát triển sức mạnh, thay đổi cuộc đời</h2>
+                <p class="lead mt-4 text-light">Veef Gym không chỉ là nơi bạn tập luyện, mà còn là nơi bạn tìm thấy nguồn cảm hứng, động lực để vượt qua giới hạn của bản thân. Sứ mệnh của chúng tôi là giúp bạn đạt được mục tiêu sức khỏe và trở thành phiên bản tốt nhất của chính mình.</p>
+                <a href="/about" class="btn btn-lg btn-outline-light mt-4">Tìm hiểu thêm</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="my-5" />
+
+<div class="container-fluid testimonial-section py-5">
+    <div class="container text-center">
+        <h2 class="display-4 font-weight-bold mb-5">Khách Hàng Nói Gì</h2>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <blockquote class="blockquote">
+                    <p class="mb-0">"Veef Gym có không gian tập luyện chuyên nghiệp và sạch sẽ. Huấn luyện viên rất nhiệt tình và chu đáo, giúp tôi đạt được mục tiêu giảm cân nhanh chóng."</p>
+                    <footer class="blockquote-footer mt-3"><cite title="Source Title">Nguyễn Văn A</cite></footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="my-5" />
+
+<div id="contact" class="container-fluid cta-section text-center py-5 bg-dark text-white">
+    <h2 class="display-4 font-weight-bold">Sẵn Sàng Bắt Đầu?</h2>
+    <p class="lead mt-3">Hãy liên hệ với chúng tôi ngay hôm nay để nhận tư vấn miễn phí và tìm hiểu các gói tập phù hợp với bạn.</p>
+    <a href="/contact" class="btn btn-lg btn-primary-custom mt-4">Liên hệ ngay</a>
+</div>

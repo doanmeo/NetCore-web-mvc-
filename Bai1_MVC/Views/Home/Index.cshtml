@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<div class="container-fluid hero-section">
+    <div class="row align-items-center h-100">
+        <div class="col-md-6 text-center text-md-left">
+            <h1 class="display-4 font-weight-bold">Chào mừng đến với trang web của chúng tôi</h1>
+            <p class="lead mt-3">Chúng tôi mang đến những giải pháp tốt nhất cho nhu cầu của bạn. Khám phá ngay!</p>
+            <a href="#" class="btn btn-primary btn-lg mt-4">Tìm hiểu thêm</a>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="https://via.placeholder.com/500x300" class="img-fluid rounded shadow" alt="Hero Image">
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container-fluid content-section my-5">
+    <div class="row text-center">
+        <div class="col-lg-4 mb-4">
+            <div class="card p-4 h-100 border-0 shadow-sm">
+                <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+                <h3 class="card-title">Phát triển nhanh chóng</h3>
+                <p class="card-text text-muted">Với công nghệ tiên tiến, chúng tôi giúp bạn đạt được mục tiêu nhanh hơn.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card p-4 h-100 border-0 shadow-sm">
+                <i class="fas fa-handshake fa-3x text-primary mb-3"></i>
+                <h3 class="card-title">Hỗ trợ tận tình</h3>
+                <p class="card-text text-muted">Đội ngũ chuyên nghiệp luôn sẵn sàng hỗ trợ 24/7.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card p-4 h-100 border-0 shadow-sm">
+                <i class="fas fa-star fa-3x text-primary mb-3"></i>
+                <h3 class="card-title">Chất lượng hàng đầu</h3>
+                <p class="card-text text-muted">Cam kết mang lại sản phẩm và dịch vụ tốt nhất.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container-fluid cta-section text-center my-5">
+    <h2 class="font-weight-bold">Sẵn sàng để bắt đầu?</h2>
+    <p class="lead mt-3">Hãy liên hệ với chúng tôi ngay hôm nay để nhận tư vấn miễn phí.</p>
+    <a href="#" class="btn btn-success btn-lg mt-4">Liên hệ ngay</a>
+</div>
+
+<style>
+    .hero-section {
+        background-color: #f8f9fa;
+        padding: 8rem 0;
+        min-height: 80vh;
+    }
+
+    .hero-section h1 {
+        color: #343a40;
+    }
+
+    .hero-section p.lead {
+        color: #6c757d;
+    }
+
+    .content-section .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .content-section .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important;
+    }
+
+    .cta-section {
+        background-color: #f1f2f6;
+        padding: 5rem 0;
+    }
+</style>

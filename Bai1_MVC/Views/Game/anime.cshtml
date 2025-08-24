@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - Đánh giá Anime</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #d9534f;
+        }
+
+        .anime-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .anime-header img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+
+        .meta-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+
+            .meta-info div {
+                flex-basis: 48%;
+                margin-bottom: 10px;
+            }
+
+            .meta-info strong {
+                color: #555;
+            }
+
+        .rating-block {
+            text-align: center;
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #ffe5e5;
+            border-radius: 8px;
+        }
+
+            .rating-block .score {
+                font-size: 2.5em;
+                font-weight: bold;
+                color: #d9534f;
+            }
+
+        .review-section {
+            margin-bottom: 25px;
+        }
+
+            .review-section h2 {
+                border-bottom: 2px solid #d9534f;
+                padding-bottom: 5px;
+                margin-bottom: 15px;
+            }
+
+        ul.pros-cons {
+            list-style: none;
+            padding: 0;
+        }
+
+            ul.pros-cons li {
+                margin-bottom: 10px;
+            }
+
+            ul.pros-cons .pro {
+                color: #5cb85c;
+            }
+
+            ul.pros-cons .con {
+                color: #d9534f;
+            }
+
+        .conclusion {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #d9534f;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="anime-header">
+            <h1>{{ title }}</h1>
+            <p><strong>Tên gốc:</strong> {{ original_title }}</p>
+            <img src="{{ image_url }}" alt="Hình ảnh anime {{ title }}">
+        </div>
+
+        <div class="meta-info">
+            <div><strong>Thể loại:</strong> {{ genres }}</div>
+            <div><strong>Số tập:</strong> {{ episode_count }}</div>
+            <div><strong>Studio:</strong> {{ studio }}</div>
+            <div><strong>Năm phát hành:</strong> {{ release_year }}</div>
+        </div>
+
+        <div class="rating-block">
+            <p>Đánh giá tổng thể của tôi:</p>
+            <p class="score">{{ overall_rating }} / 10</p>
+        </div>
+
+        <div class="review-section">
+            <h2>Tóm tắt nội dung (không spoiler)</h2>
+            <p>{{ synopsis }}</p>
+        </div>
+
+        <div class="review-section">
+            <h2>Cảm nhận và Đánh giá chi tiết</h2>
+            <h3>Đồ họa (Art & Animation)</h3>
+            <p>{{ art_animation_review }}</p>
+
+            <h3>Âm nhạc (Soundtrack)</h3>
+            <p>{{ soundtrack_review }}</p>
+
+            <h3>Cốt truyện (Story & Pacing)</h3>
+            <p>{{ story_review }}</p>
+
+            <h3>Nhân vật (Characters)</h3>
+            <p>{{ characters_review }}</p>
+        </div>
+
+        <div class="review-section">
+            <h2>Ưu điểm và Nhược điểm</h2>
+            <ul class="pros-cons">
+                <li><strong class="pro">Ưu điểm:</strong> {{ pros_list }}</li>
+                <li><strong class="con">Nhược điểm:</strong> {{ cons_list }}</li>
+            </ul>
+        </div>
+
+        <div class="conclusion review-section">
+            <h2>Kết luận</h2>
+            <p>{{ conclusion }}</p>
+            <p><strong>Anime này phù hợp với:</strong> {{ recommended_for }}</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

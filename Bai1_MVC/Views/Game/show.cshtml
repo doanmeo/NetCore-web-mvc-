@@ -1,0 +1,142 @@
+﻿@{
+    ViewData["Title"] = "[Tên Game] - Đánh Giá Chi Tiết";
+}
+
+<style>
+    :root {
+        --primary-color: #dc3545; /* Màu đỏ nổi bật */
+        --secondary-color: #343a40; /* Màu xám đậm */
+        --text-color: #212529;
+        --bg-light: #f8f9fa;
+    }
+
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        line-height: 1.7;
+        color: var(--text-color);
+        background-color: var(--bg-light);
+    }
+
+    .review-container {
+        max-width: 960px;
+        margin: auto;
+        background: #fff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .game-header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+        .game-header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--secondary-color);
+        }
+
+    .game-image {
+        border-radius: 8px;
+        max-height: 500px;
+        object-fit: cover;
+    }
+
+    .summary-section {
+        border: 2px solid #e9ecef;
+        background: #f1f2f6;
+        padding: 1.5rem;
+        border-radius: 8px;
+        margin-bottom: 2rem;
+    }
+
+    .review-section h2 {
+        font-size: 1.75rem;
+        font-weight: 600;
+        color: var(--primary-color);
+        border-bottom: 3px solid var(--primary-color);
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .score-box {
+        border: 2px solid #28a745;
+        background: #d4edda;
+        padding: 1.5rem;
+        border-radius: 8px;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+        .score-box h3 {
+            font-size: 2rem;
+            color: #28a745;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+</style>
+
+<div class="container review-container mt-5 mb-5">
+    <div class="game-header">
+        <h1>[Tên Game] - Bản Đánh Giá Chi Tiết</h1>
+        <p class="lead text-muted">[Một câu tagline hoặc nhận xét tóm tắt]</p>
+        <div class="d-flex justify-content-center flex-wrap mt-3 small text-muted">
+            <span class="mx-2"><strong>Nhà phát triển:</strong> [Tên nhà phát triển]</span>
+            <span class="mx-2"><strong>Nhà phát hành:</strong> [Tên nhà phát hành]</span>
+            <span class="mx-2"><strong>Ngày phát hành:</strong> [Ngày]</span>
+            <span class="mx-2"><strong>Nền tảng:</strong> [PC, PS5, Xbox, Switch]</span>
+        </div>
+    </div>
+
+    <img src="https://via.placeholder.com/900x500?text=Game+Screenshot" class="img-fluid game-image mb-4 shadow" alt="Hình ảnh game">
+
+    <div class="summary-section">
+        <h3>Tóm tắt nhanh:</h3>
+        
+        <p>
+            [Tóm tắt cảm nhận chung về game, giúp người đọc nắm được tổng quan một cách nhanh chóng. Ví dụ: "Sau nhiều giờ đắm mình vào thế giới rộng lớn của..., tôi có thể khẳng định đây là một trong những tựa game nhập vai đáng chơi nhất năm nay với cốt truyện hấp dẫn và gameplay cuốn hút."].
+        </p>
+    </div>
+
+    <hr class="my-5" />
+
+    <div class="review-section">
+        <h2>Cốt truyện & Bối cảnh</h2>
+        <p>
+            [Đánh giá chi tiết về cốt truyện, các nhân vật, và cách game xây dựng thế giới. Liệu nó có đủ hấp dẫn và chiều sâu để lôi cuốn người chơi?].
+        </p>
+    </div>
+
+    <div class="review-section">
+        <h2>Đồ họa & Âm thanh</h2>
+        <p>
+            [Phân tích chất lượng đồ họa, hiệu ứng, thiết kế nhân vật và bối cảnh. Đồng thời, nhận xét về âm nhạc, lồng tiếng và hiệu ứng âm thanh, chúng có góp phần tạo nên trải nghiệm chơi game không?].
+        </p>
+    </div>
+
+    <div class="review-section">
+        <h2>Lối chơi (Gameplay)</h2>
+        <p>
+            [Đây là phần quan trọng nhất. Phân tích cơ chế gameplay, cách điều khiển, hệ thống chiến đấu, các tính năng đặc biệt (như crafting, skill tree...). Đánh giá độ khó và tính cân bằng của game].
+        </p>
+    </div>
+
+    <div class="review-section">
+        <h2>Điểm yếu và Hạn chế</h2>
+        <p>
+            [Chỉ ra các điểm chưa hoàn thiện, lỗi, hoặc các yếu tố có thể gây khó chịu cho người chơi. Một bài review khách quan cần nêu cả điểm yếu để người đọc có cái nhìn toàn diện].
+        </p>
+    </div>
+
+    <div class="score-box">
+        <h3>Tổng Điểm: [9/10]</h3>
+        <p class="lead"><strong>Kết luận:</strong> [Tóm tắt lại những điểm mạnh và điểm yếu nổi bật nhất, và đưa ra lời khuyên cuối cùng. Ví dụ: "Nếu bạn là fan của thể loại game... thì đây chắc chắn là một tựa game không thể bỏ qua."].</p>
+    </div>
+
+    <hr class="my-5" />
+
+    <div class="text-center">
+        <p class="text-muted">Bạn có đồng ý với đánh giá này không? Hãy để lại ý kiến của bạn ở dưới phần bình luận!</p>
+    </div>
+</div>
