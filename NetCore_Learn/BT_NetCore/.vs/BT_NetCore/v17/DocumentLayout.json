@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TDThinh_231230917\\BT_NetCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|d:\\tdthinh_231230917\\bt_netcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|d:\\tdthinh_231230917\\bt_netcore\\views\\about\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|solutionrelative:views\\about\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|d:\\tdthinh_231230917\\bt_netcore\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|solutionrelative:controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|d:\\tdthinh_231230917\\bt_netcore\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|solutionrelative:views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|d:\\tdthinh_231230917\\bt_netcore\\views\\my\\myitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|solutionrelative:views\\my\\myitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|d:\\tdthinh_231230917\\bt_netcore\\controllers\\mycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|solutionrelative:controllers\\mycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|d:\\tdthinh_231230917\\bt_netcore\\views\\my\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02CC254D-D8F3-4499-8899-4083D9DE8C22}|BT_NetCore.csproj|solutionrelative:views\\my\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\TDThinh_231230917\\BT_NetCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\TDThinh_231230917\\BT_NetCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T13:44:12.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\TDThinh_231230917\\BT_NetCore\\Views\\About\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\About\\About.cshtml",
+              "ToolTip": "D:\\TDThinh_231230917\\BT_NetCore\\Views\\About\\About.cshtml",
+              "RelativeToolTip": "Views\\About\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T13:43:30.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TDThinh_231230917\\BT_NetCore\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\About\\Index.cshtml",
+              "ToolTip": "D:\\TDThinh_231230917\\BT_NetCore\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "Views\\About\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T13:42:52.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyItem.cshtml",
+              "DocumentMoniker": "D:\\TDThinh_231230917\\BT_NetCore\\Views\\My\\MyItem.cshtml",
+              "RelativeDocumentMoniker": "Views\\My\\MyItem.cshtml",
+              "ToolTip": "D:\\TDThinh_231230917\\BT_NetCore\\Views\\My\\MyItem.cshtml",
+              "RelativeToolTip": "Views\\My\\MyItem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T13:42:12.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TDThinh_231230917\\BT_NetCore\\Views\\My\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\My\\Index.cshtml",
+              "ToolTip": "D:\\TDThinh_231230917\\BT_NetCore\\Views\\My\\Index.cshtml",
+              "RelativeToolTip": "Views\\My\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T13:41:10.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyController.cs",
+              "DocumentMoniker": "D:\\TDThinh_231230917\\BT_NetCore\\Controllers\\MyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MyController.cs",
+              "ToolTip": "D:\\TDThinh_231230917\\BT_NetCore\\Controllers\\MyController.cs",
+              "RelativeToolTip": "Controllers\\MyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T13:40:39.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "D:\\TDThinh_231230917\\BT_NetCore\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AboutController.cs",
+              "ToolTip": "D:\\TDThinh_231230917\\BT_NetCore\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T13:39:49.037Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
