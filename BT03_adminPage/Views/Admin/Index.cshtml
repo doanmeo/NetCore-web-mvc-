@@ -1,0 +1,115 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    // Nếu bạn muốn sử dụng một Layout cụ thể cho trang admin này, hãy đặt ở đây.
+    // Ví dụ: Layout = "_AdminLayout";
+    // Nếu không, nó sẽ kế thừa từ _ViewStart.cshtml mặc định.
+
+
+    ViewData["Title"] = "Dashboard"; // Đặt tiêu đề cho trang
+    Layout = "_AdminLayout"; // Sử dụng layout admin"
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Dự án laptopshop" />
+    <meta name="author" content="DOAN" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+    <link href="~/css/styles.css" rel="stylesheet" /> {{-- Đảm bảo đường dẫn đúng trong wwwroot --}}
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="sb-nav-fixed">
+
+    <div id="layoutSidenav">
+
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid px-4">
+                    <h1 class="mt-4">Dashboard</h1>
+                    <ol class="breadcrumb mb-4">
+                        <li class="breadcrumb-item active">Dashboard</li>
+                    </ol>
+                    <div class="row">
+                        <div class="col-xl-4 col-md-6">
+                            <div class="card bg-primary text-white mb-4">
+                                @* {{-- Giả sử countUsers được truyền qua ViewData hoặc Model --}} *@
+                                <div class="card-body">Số lượng User (@ViewData["countUsers"])</div>
+                                <div class="card-footer d-flex align-items-center justify-content-between">
+                                    <a class="small text-white stretched-link" href="/admin/user">View Details</a>
+                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div class="card bg-warning text-white mb-4">
+                                @* {{-- Giả sử countProducts được truyền qua ViewData hoặc Model --}} *@
+                                <div class="card-body">Số lượng Product (@ViewData["countProducts"])</div>
+                                <div class="card-footer d-flex align-items-center justify-content-between">
+                                    <a class="small text-white stretched-link" href="/admin/product">View Details</a>
+                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div class="card bg-success text-white mb-4">
+                                @* {{-- Giả sử countOrders được truyền qua ViewData hoặc Model --}} *@
+                                <div class="card-body">Số lượng Order (@ViewData["countOrders"])</div>
+                                <div class="card-footer d-flex align-items-center justify-content-between">
+                                    <a class="small text-white stretched-link" href="/admin/order">View Details</a>
+                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <section class="col-lg-12">
+                            <div class="card">
+                                <div class="card-header border-0">
+                                    <h3 class="card-title">
+                                        <i class="far fa-calendar-alt"></i>
+                                        Lịch Sự Kiện
+                                    </h3>
+                                </div>
+                                <div class="card-body">
+                                    <div id='calendar' class="full-calendar-container"></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    @section Scripts {
+                        <script src="~/js/calendar-init.js"></script>
+                    }
+
+
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js'></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            crossorigin="anonymous"></script>
+    <script src="~/js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"
+            crossorigin="anonymous"></script>
+    <script src="~/js/chart-area-demo.js"></script> 
+    <script src="~/js/chart-bar-demo.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js"
+            crossorigin="anonymous"></script>
+    <script src="~/js/datatables-simple-demo.js"></script> 
+</body>
+
+</html>

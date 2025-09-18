@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\wwwroot\\js\\calendar-init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:wwwroot\\js\\calendar-init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\wwwroot\\js\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:wwwroot\\js\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\wwwroot\\js\\datatables-simple-demo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:wwwroot\\js\\datatables-simple-demo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\wwwroot\\js\\chart-pie-demo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:wwwroot\\js\\chart-pie-demo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\wwwroot\\js\\chart-bar-demo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:wwwroot\\js\\chart-bar-demo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\bt03_adminpage\\wwwroot\\js\\chart-area-demo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FC0CDCF9-766D-464C-8AA0-56FBCDAF14A2}|BT03_adminPage.csproj|solutionrelative:wwwroot\\js\\chart-area-demo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T00:45:56.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAF0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T00:32:50.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Header.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T00:41:23.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T00:53:31.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T00:55:41.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "calendar-init.js",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\js\\calendar-init.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\calendar-init.js",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\js\\calendar-init.js",
+              "RelativeToolTip": "wwwroot\\js\\calendar-init.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-18T04:44:59.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "scripts.js",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\js\\scripts.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\scripts.js",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\js\\scripts.js",
+              "RelativeToolTip": "wwwroot\\js\\scripts.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-18T01:07:14.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "datatables-simple-demo.js",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\js\\datatables-simple-demo.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\datatables-simple-demo.js",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\js\\datatables-simple-demo.js",
+              "RelativeToolTip": "wwwroot\\js\\datatables-simple-demo.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-18T04:02:24.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:58:36.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T00:28:27.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T00:51:43.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "styles.css",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAM4yAAAAAAAAAAAIwHkzAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-18T01:08:35.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "chart-pie-demo.js",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\js\\chart-pie-demo.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\chart-pie-demo.js",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\js\\chart-pie-demo.js",
+              "RelativeToolTip": "wwwroot\\js\\chart-pie-demo.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-18T01:06:34.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "chart-bar-demo.js",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\js\\chart-bar-demo.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\chart-bar-demo.js",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\js\\chart-bar-demo.js",
+              "RelativeToolTip": "wwwroot\\js\\chart-bar-demo.js",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-18T01:05:45.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "chart-area-demo.js",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\js\\chart-area-demo.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\chart-area-demo.js",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\BT03_adminPage\\wwwroot\\js\\chart-area-demo.js",
+              "RelativeToolTip": "wwwroot\\js\\chart-area-demo.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-18T01:05:03.027Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
