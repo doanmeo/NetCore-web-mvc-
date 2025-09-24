@@ -1,0 +1,86 @@
+﻿@using WebApplication1.Models
+@model List<Employee>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Quản lý Nhân viên";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">@ViewData["Title"]</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a href="/Admin/Dashboard">Dashboard</a></li>
+        <li class="breadcrumb-item active">@ViewData["Title"]</li>
+    </ol>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            Danh sách Nhân viên
+            <a href="/Admin/CreateEmployee" class="btn btn-primary btn-sm float-end">Thêm mới</a>
+        </div>
+        <div class="card-body">
+            <table id="datatablesSimple" class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Họ và tên</th>
+                        <th>Giới tính</th>
+                        <th>Điện thoại</th>
+                        <th>Email</th>
+                        <th>Lương</th>
+                        <th>Trạng thái</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>ID</th>
+                        <th>Họ và tên</th>
+                        <th>Giới tính</th>
+                        <th>Điện thoại</th>
+                        <th>Email</th>
+                        <th>Lương</th>
+                        <th>Trạng thái</th>
+                        <th>Hành động</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        @foreach (var employee in Model)
+                        {
+                            <tr>
+                                <td>@employee.Id</td>
+                                <td>@employee.FullName</td>
+                                <td>@employee.Gender</td>
+                                <td>@employee.Phone</td>
+                                <td>@employee.Email</td>
+                                <td>@employee.Salary.ToString("N0") VNĐ</td>
+                                <td>@employee.Status</td>
+                                <td>
+                                    <a href="/Admin/EmployeeDetails/@employee.Id" class="btn btn-info btn-sm">Xem</a>
+                                    <a href="/Admin/EditEmployee/@employee.Id" class="btn btn-warning btn-sm">Sửa</a>
+                                    <a href="/Admin/DeleteEmployee/@employee.Id" class="btn btn-danger btn-sm">Xóa</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="8" class="text-center">Không có nhân viên nào.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

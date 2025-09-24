@@ -1,0 +1,50 @@
+﻿@model WebApplication1.Models.Employee
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Chi tiết Nhân viên";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">@ViewData["Title"]</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a href="/Admin/Dashboard">Dashboard</a></li>
+        <li class="breadcrumb-item"><a href="/Admin/EmployeeList">Quản lý Nhân viên</a></li>
+        <li class="breadcrumb-item active">@ViewData["Title"]</li>
+    </ol>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-user-circle me-1"></i>
+            Thông tin chi tiết của @Model.FullName
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">ID:</dt>
+                <dd class="col-sm-9">@Model.Id</dd>
+
+                <dt class="col-sm-3">Họ và tên:</dt>
+                <dd class="col-sm-9">@Model.FullName</dd>
+
+                <dt class="col-sm-3">Giới tính:</dt>
+                <dd class="col-sm-9">@Model.Gender</dd>
+
+                <dt class="col-sm-3">Điện thoại:</dt>
+                <dd class="col-sm-9">@Model.Phone</dd>
+
+                <dt class="col-sm-3">Email:</dt>
+                <dd class="col-sm-9">@Model.Email</dd>
+
+                <dt class="col-sm-3">Lương:</dt>
+                <dd class="col-sm-9">@Model.Salary.ToString("N0") VNĐ</dd>
+
+                <dt class="col-sm-3">Trạng thái:</dt>
+                <dd class="col-sm-9">@Model.Status</dd>
+            </dl>
+        </div>
+        <div class="card-footer">
+            <a href="/Admin/EditEmployee/@Model.Id" class="btn btn-warning">Sửa</a>
+            <a href="/Admin/EmployeeList" class="btn btn-secondary">Quay lại danh sách</a>
+        </div>
+    </div>
+</div>
