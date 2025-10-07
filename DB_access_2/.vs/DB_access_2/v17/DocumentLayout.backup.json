@@ -1,0 +1,208 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\db_access_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\db_access_2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\db_access_2\\controllers\\bookmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|solutionrelative:controllers\\bookmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\db_access_2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\db_access_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\db_access_2\\models\\businessmodel\\bookmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|solutionrelative:models\\businessmodel\\bookmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\db_access_2\\models\\datamodel\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|solutionrelative:models\\datamodel\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\db_access_2\\models\\datamodel\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|solutionrelative:models\\datamodel\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\db_access_2\\models\\datamodel\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|solutionrelative:models\\datamodel\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\db_access_2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04A92F0D-6420-4B77-BDAE-4BA1C00F8B01}|DB_access_2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 145,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T03:40:14.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookManagementController.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Controllers\\BookManagementController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookManagementController.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Controllers\\BookManagementController.cs",
+              "RelativeToolTip": "Controllers\\BookManagementController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:35:44.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T02:57:51.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-07T02:53:39.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookManagementContext.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Models\\BusinessModel\\BookManagementContext.cs",
+              "RelativeDocumentMoniker": "Models\\BusinessModel\\BookManagementContext.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Models\\BusinessModel\\BookManagementContext.cs",
+              "RelativeToolTip": "Models\\BusinessModel\\BookManagementContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T02:50:23.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Publisher.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Models\\DataModel\\Publisher.cs",
+              "RelativeDocumentMoniker": "Models\\DataModel\\Publisher.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Models\\DataModel\\Publisher.cs",
+              "RelativeToolTip": "Models\\DataModel\\Publisher.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T02:48:16.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Models\\DataModel\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\DataModel\\Category.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Models\\DataModel\\Category.cs",
+              "RelativeToolTip": "Models\\DataModel\\Category.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T02:47:31.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Models\\DataModel\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\DataModel\\Book.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Models\\DataModel\\Book.cs",
+              "RelativeToolTip": "Models\\DataModel\\Book.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T02:45:53.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T02:42:16.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\DB_access_2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T02:41:55.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 97,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
