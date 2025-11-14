@@ -1,9 +1,26 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using lab01.Data;
+using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// vì Configuration đã tự động đọc "Secrets.json" trong môi trường Development.
+// builder.Configuration.SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("Secrets.json");
+
+// Đăng ký SchoolContext với chuỗi kết nối "SchoolContext" từ file Secrets.json
+builder.Services.AddDbContext<SchoolContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolContext"))); // [cite: 405-406]
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+// Gọi DbInitializer để tạo và seed database
+ using (var scope = app.Services.CreateScope()) // [cite: 410]
+{
+    var services = scope.ServiceProvider; // [cite: 412]
+    DbInitializer.Initialize(services); // [cite: 414]
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
