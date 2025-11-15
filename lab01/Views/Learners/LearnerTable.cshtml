@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Learner>
+<table class="table table-striped"> <thead> <tr>
+            <th>Mã</th> <th>Tên</th> <th>Ho</th> <th>Ngành</th> <th>Ngày Nhập Học</th> <th>Chức năng</th> </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model) {
+            <tr>
+                <td>@s.LearnerID</td> <td>@s.FirstMidName</td> <td>@s.LastName</td> <td>@s.Major.MajorName</td> <td>@s.EnrollmentDate</td> <td>
+                    <a asp-action="Edit" asp-route-id="@s.LearnerID">Edit</a> <a asp-action="Delete" asp-route-id="@s.LearnerID">Delete</a> </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@* ### Bước 2.4: Sửa `Index.cshtml` để dùng AJAX *@
+
+@* Mở lại `Views/Learner/Index.cshtml` (file ở Phần 1), chúng ta cần:
+1.  Bọc bảng `<table>` bằng một thẻ `<div id="content">`[cite: 311, 319].
+2.  Thêm một `@section Scripts` ở cuối để viết code JavaScript (jQuery) *@
+

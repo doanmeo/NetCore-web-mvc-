@@ -3,51 +3,65 @@
 @{
     ViewData["Title"] = "Index";
 }
+@* <div class="ms-2 mx-2">
+    <h1>Learner List</h1>
+    @await Component.InvokeAsync("Major") /// Gọi ViewComponent Major
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Mã</th> <th>Tên</th> <th>Ho</th> <th>Ngành</th> <th>Ngày Nhập Học</th> <th>Chức năng</th> </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in Model) {
+                <tr>
+                    <td>@s.LearnerID</td> <td>@s.FirstMidName</td> <td>@s.LastName</td> <td>@s.Major.MajorName</td> <td>@s.EnrollmentDate</td> <td>
+                        <a asp-action="Edit" asp-route-id="@s.LearnerID">Edit</a> | <a asp-action="Delete" asp-route-id="@s.LearnerID">Delete</a> </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-action="Create" class="btn btn-primary">Create New Student</a> </div> *@
 
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.LastName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FirstMidName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EnrollmentDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Major)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.LastName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FirstMidName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EnrollmentDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Major.MajorID)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.LearnerID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.LearnerID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.LearnerID">Delete</a>
-            </td>
-        </tr>
+ <div class="ms-2 mx-2">
+    <h1>Learner List</h1>
+    @await Component.InvokeAsync("Major") 
+    <div id="content"> @* Bảng ban đầu sẽ được load ở đây, 
+           sau đó AJAX sẽ thay thế nội dung của div này *@
+        
+        <table class="table table-striped">
+            <thead>
+
+            </thead>
+            <tbody>
+                @foreach (var s in Model)
+                {
+                    
+                }
+            </tbody>
+        </table>
+     </div> 
+        <a asp-action="Create" class="btn btn-primary">Create New Student</a>
+  </div>
+
+@section Scripts{
+    <script>
+        // Khi một thẻ <li> được click 
+        $("li.nav-item").click(function (e) { 
+            
+            // Lấy id của thẻ li (chính là MajorID)
+            var id = $(this).attr("id");
+            
+            // Bắt đầu gọi AJAX
+            $.ajax({
+                url: "LearnerByMajorID", // Action Controller để gọi 
+                data: { mid: id },      // Dữ liệu gửi lên: { mid: 1 } 
+                success: function (response) {
+                    // Khi thành công, 'response' là HTML từ PartialView
+                    // Ghi đè HTML vào div#content
+                    $("div#content").html(response); 
+                }
+            });
+        });
+    </script>
 }
-    </tbody>
-</table>

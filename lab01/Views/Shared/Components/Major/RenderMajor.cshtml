@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Major>
+@* cach 1 *@
+@* <ul class="nav">
+    @foreach(var m in Model) {
+        <li class="nav-item">
+            <a asp-controller="Learners" asp-action="Index" 
+               asp-route-mid="@m.MajorID" class="nav-link">@m.MajorName</a> 
+           </li>
+    }
+</ul> *@
+<ul class="nav">
+    @foreach(var m in Model)
+    {
+        <li class="nav-item" id="@m.MajorID">
+            <a class="nav-link" style="cursor:pointer">@m.MajorName</a>
+        </li>
+    }
+</ul>

@@ -20,16 +20,45 @@ namespace lab01.Controllers
         }
 
         // 8.1 List (R) – Hiển thị danh sách
-        public IActionResult Index()
+        //public IActionResult Index()
+        //{
+        //    // Dùng Include để load thông tin Major liên quan (Eager Loading)
+        //    var learners = db.Learners.Include(m => m.Major).ToList(); // [cite: 451]
+        //    return View(learners);
+        //}
+        // [Sửa Action Index trong LearnerController.cs]
+        public IActionResult Index(int? mid) 
         {
-            // Dùng Include để load thông tin Major liên quan (Eager Loading)
-            var learners = db.Learners.Include(m => m.Major).ToList(); // [cite: 451]
-            return View(learners);
+             if (mid == null) // Nếu không có mid, trả về tất cả Learner
+            {
+                var learners = db.Learners
+                    .Include(m => m.Major).ToList(); 
+                return View(learners); 
+            }
+            else // Nếu có mid, lọc theo mid 
+            {
+                var learners = db.Learners
+                    .Where(l => l.MajorID == mid) 
+                    .Include(m => m.Major).ToList(); 
+                return View(learners); 
+            }
+        }
+        //cach 2 : Tạo Action mới để lọc Learner theo MajorID và trả về PartialView
+        // [Thêm Action mới này vào LearnerController.cs]
+        public IActionResult LearnerByMajorID(int mid)
+        {
+            // Lọc Learner theo MajorID
+            var learners = db.Learners
+                .Where(l => l.MajorID == mid) // [cite: 200]
+                .Include(m => m.Major).ToList(); // [cite: 200]
+
+            // Trả về một PartialView tên là "LearnerTable"
+            return PartialView("LearnerTable", learners); // [cite: 200]
         }
 
         // 8.2 Create (C) – Thêm mới
-        
-        [HttpGet] // [cite: 545]
+
+        [HttpGet] 
         public IActionResult Create()
         {
             // Gửi danh sách Majors về View để làm dropdown list
