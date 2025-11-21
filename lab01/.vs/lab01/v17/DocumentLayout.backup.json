@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\views\\learners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:views\\learners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\views\\shared\\components\\major\\rendermajor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:views\\shared\\components\\major\\rendermajor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\views\\learners\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:views\\learners\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\views\\learners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:views\\learners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\controllers\\learnerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:controllers\\learnerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\viewcomponents\\renderviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:viewcomponents\\renderviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\viewcomponents\\majorviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:viewcomponents\\majorviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\views\\shared\\components\\major\\rendermajor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:views\\shared\\components\\major\\rendermajor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -33,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\viewcomponents\\renderviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:viewcomponents\\renderviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\views\\learners\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\models\\major.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:models\\major.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|solutionrelative:models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F734F948-95E6-4781-9572-707E40925DCD}|lab01.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\lab01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -146,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -173,47 +173,12 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LearnerTable.cshtml",
-              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Learners\\LearnerTable.cshtml",
-              "RelativeDocumentMoniker": "Views\\Learners\\LearnerTable.cshtml",
-              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Learners\\LearnerTable.cshtml*",
-              "RelativeToolTip": "Views\\Learners\\LearnerTable.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T09:02:16.708Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{7513ff4e-9271-4984-bbcd-46ff9e185399}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Learners\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Learners\\Index.cshtml",
-              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Learners\\Index.cshtml*",
-              "RelativeToolTip": "Views\\Learners\\Index.cshtml*",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T08:34:36.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RenderMajor.cshtml",
-              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
-              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Shared\\Components\\Major\\RenderMajor.cshtml*",
-              "RelativeToolTip": "Views\\Shared\\Components\\Major\\RenderMajor.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T08:23:00.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "StudentController.cs",
               "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
@@ -221,21 +186,71 @@
               "RelativeToolTip": "Controllers\\StudentController.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAkwG8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T00:35:07.657Z",
+              "WhenOpened": "2025-11-07T00:35:07.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LearnersController.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Controllers\\LearnersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LearnersController.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Controllers\\LearnersController.cs",
+              "RelativeToolTip": "Controllers\\LearnersController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwGUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T02:42:06.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Learners\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learners\\Index.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Learners\\Index.cshtml",
+              "RelativeToolTip": "Views\\Learners\\Index.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T08:34:36.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LearnerTable.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Learners\\LearnerTable.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learners\\LearnerTable.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Learners\\LearnerTable.cshtml",
+              "RelativeToolTip": "Views\\Learners\\LearnerTable.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T09:02:16.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LearnersController.cs",
-              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Controllers\\LearnersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LearnersController.cs",
-              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Controllers\\LearnersController.cs*",
-              "RelativeToolTip": "Controllers\\LearnersController.cs*",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwC4AAAA5AAAAAAAAAA==",
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "Models\\MenuItem.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Models\\MenuItem.cs",
+              "RelativeToolTip": "Models\\MenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:42:06.862Z",
+              "WhenOpened": "2025-11-07T02:18:52.868Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RenderViewComponent.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\ViewComponents\\RenderViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\RenderViewComponent.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\ViewComponents\\RenderViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\RenderViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:27:05.432Z"
             },
             {
               "$type": "Document",
@@ -247,16 +262,23 @@
               "RelativeToolTip": "ViewComponents\\MajorViewComponent.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T08:14:15.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{7513ff4e-9271-4984-bbcd-46ff9e185399}"
+              "WhenOpened": "2025-11-15T08:14:15.242Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "RenderMajor.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T08:23:00.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
@@ -268,19 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RenderViewComponent.cs",
-              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\ViewComponents\\RenderViewComponent.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\RenderViewComponent.cs",
-              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\ViewComponents\\RenderViewComponent.cs",
-              "RelativeToolTip": "ViewComponents\\RenderViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T02:27:05.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -292,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Views\\Learners\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Learners\\Create.cshtml",
@@ -316,19 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MenuItem.cs",
-              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Models\\MenuItem.cs",
-              "RelativeDocumentMoniker": "Models\\MenuItem.cs",
-              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Models\\MenuItem.cs",
-              "RelativeToolTip": "Models\\MenuItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T02:18:52.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
@@ -364,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Major.cs",
               "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\lab01\\Models\\Major.cs",
               "RelativeDocumentMoniker": "Models\\Major.cs",

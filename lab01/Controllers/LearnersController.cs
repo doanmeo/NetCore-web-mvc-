@@ -13,6 +13,7 @@ namespace lab01.Controllers
     public class LearnersController : Controller
     {
         private SchoolContext db; // [cite: 444]
+        private int pageSize = 3;
 
         public LearnersController(SchoolContext context)
         {
@@ -29,22 +30,24 @@ namespace lab01.Controllers
         // [Sửa Action Index trong LearnerController.cs]
         public IActionResult Index(int? mid) 
         {
-             if (mid == null) // Nếu không có mid, trả về tất cả Learner
+            var learners = (IQueryable<Learner>)db.Learners
+        .Include(m => m.Major);
+
+            if (mid != null)
             {
-                var learners = db.Learners
-                    .Include(m => m.Major).ToList(); 
-                return View(learners); 
+                learners = (IQueryable<Learner>)db.Learners
+                    .Where(l => l.MajorID == mid)
+                    .Include(m => m.Major);
             }
-            else // Nếu có mid, lọc theo mid 
-            {
-                var learners = db.Learners
-                    .Where(l => l.MajorID == mid) 
-                    .Include(m => m.Major).ToList(); 
-                return View(learners); 
-            }
+            // Tính số trang
+            int pageNum = (int)Math.Ceiling(learners.Count() / (float)pageSize); 
+            // Trả số trang về view để hiển thị nav-trang
+            ViewBag.pageNum = pageNum;
+            // Lấy dữ liệu trang đầu
+            var result = learners.Take(pageSize).ToList();
+            return View(result);
         }
         //cach 2 : Tạo Action mới để lọc Learner theo MajorID và trả về PartialView
-        // [Thêm Action mới này vào LearnerController.cs]
         public IActionResult LearnerByMajorID(int mid)
         {
             // Lọc Learner theo MajorID
@@ -54,6 +57,48 @@ namespace lab01.Controllers
 
             // Trả về một PartialView tên là "LearnerTable"
             return PartialView("LearnerTable", learners); // [cite: 200]
+        }
+
+        public IActionResult LearnerFilter(int? mid, string? keyword, int? pageIndex)
+        {
+            // Lấy toàn bộ learners
+            var learners = (IQueryable<Learner>)db.Learners;
+
+            // Lấy chỉ số trang, nếu null hoặc <= 0 thì mặc định bằng 1
+            int page = (int)(pageIndex == null || pageIndex <= 0 ? 1 : pageIndex); 
+
+            // 1. Lọc theo MajorID (mid)
+             if (mid != null) 
+            {
+                // Lọc
+                learners = learners.Where(l => l.MajorID == mid);
+                                                                  // Gửi mid về view
+                ViewBag.mid = mid;
+            }
+
+            // 2. Tìm kiếm theo keyword (tên)
+             if (keyword != null) 
+            {
+                // Tìm kiếm (chuyển về chữ thường để tìm kiếm không phân biệt hoa thường)
+                learners = learners.Where(l => l.FirstMidName.ToLower().Contains(keyword.ToLower())); 
+                                                                                                      // Gửi keyword về view
+                ViewBag.keyword = keyword; 
+            }
+
+            // 3. Tính toán và Phân trang
+            // Tính số trang
+            int pageNum = (int)Math.Ceiling(learners.Count() / (float)pageSize); 
+                                                                                 // Gửi số trang về view
+            ViewBag.pageNum = pageNum; 
+
+            // Chọn dữ liệu trong trang hiện tại: Bỏ qua (Skip) các phần tử của các trang trước, rồi Lấy (Take) số lượng phần tử của trang hiện tại.
+             var result = learners.Skip(pageSize * (page - 1))
+                                 .Take(pageSize)
+                                 .Include(m => m.Major) 
+                                 .ToList(); // Cần thêm .ToList() nếu `result` không cần là IQueryable nữa.
+
+            // Trả về Partial View chỉ chứa bảng dữ liệu và thanh phân trang
+            return PartialView("LearnerTable", result);
         }
 
         // 8.2 Create (C) – Thêm mới

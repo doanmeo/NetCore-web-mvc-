@@ -28,7 +28,18 @@
     @await Component.InvokeAsync("Major") 
     <div id="content"> @* Bảng ban đầu sẽ được load ở đây, 
            sau đó AJAX sẽ thay thế nội dung của div này *@
-        
+
+        @* Them form tim kiem *@
+        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+            <div class="input-group">
+                <input id="keyword" class="form-control" name="keyword"
+                       type="text" placeholder="Search learner" />
+                <button id="btnSearch" class="btn btn-primary" type="button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </form>
+        @* -- *@
         <table class="table table-striped">
             <thead>
 
@@ -40,28 +51,61 @@
                 }
             </tbody>
         </table>
+
+        <ul class="pagination">
+            @for (int i = 1; i <= ViewBag.pageNum; i++)
+            {
+                <li class="page-item" page="@i"
+                    @(ViewBag.mid != null ? "mid='" + ViewBag.mid + "'" : "")
+                    @(ViewBag.keyword != null ? "keyword='" + ViewBag.keyword + "'" : "")>
+                    <a class="page-link">@i</a>
+                </li>
+            }
+        </ul>
      </div> 
         <a asp-action="Create" class="btn btn-primary">Create New Student</a>
   </div>
 
-@section Scripts{
+
+@section Scripts {
     <script>
-        // Khi một thẻ <li> được click 
-        $("li.nav-item").click(function (e) { 
-            
-            // Lấy id của thẻ li (chính là MajorID)
-            var id = $(this).attr("id");
-            
-            // Bắt đầu gọi AJAX
-            $.ajax({
-                url: "LearnerByMajorID", // Action Controller để gọi 
-                data: { mid: id },      // Dữ liệu gửi lên: { mid: 1 } 
-                success: function (response) {
-                    // Khi thành công, 'response' là HTML từ PartialView
-                    // Ghi đè HTML vào div#content
-                    $("div#content").html(response); 
-                }
-            });
-        });
+        //thêm script ajax cho click vào page-item, nút search
+               $('body').on('click', 'li.page-item', function (e) {
+                   var page = $(this).attr("page");
+                   var mid = $(this).attr("mid");
+                   var keyword = $(this).attr("keyword");
+                   var data = { mid: mid, keyword: keyword, pageIndex: page };
+                   $.ajax({
+                       url: "LearnerFilter",
+                       data: data,
+                       success: function (response) {
+                           $("div#content").html(response);
+                       }
+                   });
+               });
+
+               $(".nav li").click(function (e) {
+                   var id = $(this).attr("id");
+                   var data = { mid: id };
+                   $.ajax({
+                       url: "LearnerFilter",
+                       data: data,
+                       success: function (response) {
+                           $("div#content").html(response);
+                       }
+                   });
+               });
+
+               $("button#btnSearch").click(function (e) {
+                   var keyword = $("#keyword").val();
+                   var data = { keyword: keyword };
+                   $.ajax({
+                       url: "LearnerFilter",
+                       data: data,
+                       success: function (response) {
+                           $("div#content").html(response);
+                       }
+                   });
+               });
     </script>
 }
