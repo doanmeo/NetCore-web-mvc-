@@ -1,0 +1,11 @@
+﻿@model IEnumerable<ktra02.Models.LoaiHang>
+<div class="nav-item" style="color:bisque">Vu Van Doan</div>
+@foreach (var item in Model)
+{
+    // Thêm class để bắt sự kiện AJAX cho Câu 4
+    <li>
+        <a href="#" onclick="showProducts(@item.MaLoai); return false;">
+            @item.TenLoai
+        </a>
+    </li>
+}

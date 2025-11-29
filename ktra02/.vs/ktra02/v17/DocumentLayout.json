@@ -1,0 +1,381 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\models\\hanghoapartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:models\\hanghoapartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\models\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:models\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\models\\tblaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:models\\tblaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\views\\home\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:views\\home\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\views\\home\\vvd_maincontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:views\\home\\vvd_maincontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\viewcomponents\\loaihangmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:viewcomponents\\loaihangmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\views\\shared\\components\\loaihangmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:views\\shared\\components\\loaihangmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\views\\shared\\vvd_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:views\\shared\\vvd_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\views\\shared\\vvd_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:views\\shared\\vvd_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/QLHangHoa/True/SqlTable/dbo.HangHoa.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\views\\shared\\vvd_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:views\\shared\\vvd_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|d:\\netcore_mvc\\netcore-web-mvc-\\ktra02\\models\\qlhanghoacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF2D6FB-3036-4323-9BC3-B46C96B0205B}|ktra02.csproj|solutionrelative:models\\qlhanghoacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "vvd_footer.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Shared\\vvd_footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\vvd_footer.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Shared\\vvd_footer.cshtml",
+              "RelativeToolTip": "Views\\Shared\\vvd_footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T15:27:05.904Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{7513ff4e-9271-4984-bbcd-46ff9e185399}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ba58fdf3-7af7-4b60-b69b-40ac68d83b75}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HangHoa.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Models\\HangHoa.cs",
+              "RelativeDocumentMoniker": "Models\\HangHoa.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Models\\HangHoa.cs",
+              "RelativeToolTip": "Models\\HangHoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T06:51:04.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TblAccount.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Models\\TblAccount.cs",
+              "RelativeDocumentMoniker": "Models\\TblAccount.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Models\\TblAccount.cs",
+              "RelativeToolTip": "Models\\TblAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T06:51:02.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HangHoaPartial.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Models\\HangHoaPartial.cs",
+              "RelativeDocumentMoniker": "Models\\HangHoaPartial.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Models\\HangHoaPartial.cs",
+              "RelativeToolTip": "Models\\HangHoaPartial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T14:26:05.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T14:48:05.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-28T06:50:31.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "vvd_maincontent.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Home\\vvd_maincontent.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\vvd_maincontent.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Home\\vvd_maincontent.cshtml",
+              "RelativeToolTip": "Views\\Home\\vvd_maincontent.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T16:01:51.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ProductList.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Home\\_ProductList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_ProductList.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Home\\_ProductList.cshtml",
+              "RelativeToolTip": "Views\\Home\\_ProductList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T08:17:45.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoaiHangMenuViewComponent.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\ViewComponents\\LoaiHangMenuViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\LoaiHangMenuViewComponent.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\ViewComponents\\LoaiHangMenuViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\LoaiHangMenuViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T08:45:48.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Shared\\Components\\LoaiHangMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\LoaiHangMenu\\Default.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Shared\\Components\\LoaiHangMenu\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\LoaiHangMenu\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T05:49:05.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-27T08:16:17.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "vvd_Layout.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Shared\\vvd_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\vvd_Layout.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Shared\\vvd_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\vvd_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T03:35:19.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.HangHoa.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/QLHangHoa/True/SqlTable/dbo.HangHoa.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/QLHangHoa/True/SqlTable/dbo.HangHoa.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-27T15:17:32.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Create.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T14:55:12.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "vvd_Header.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Shared\\vvd_Header.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\vvd_Header.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Shared\\vvd_Header.cshtml",
+              "RelativeToolTip": "Views\\Shared\\vvd_Header.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T15:19:10.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T08:16:40.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T08:17:33.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T08:16:51.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-23T15:30:08.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "QlhangHoaContext.cs",
+              "DocumentMoniker": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Models\\QlhangHoaContext.cs",
+              "RelativeDocumentMoniker": "Models\\QlhangHoaContext.cs",
+              "ToolTip": "D:\\NetCore_MVC\\NetCore-web-mvc-\\ktra02\\Models\\QlhangHoaContext.cs",
+              "RelativeToolTip": "Models\\QlhangHoaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:27:47.793Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1217,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

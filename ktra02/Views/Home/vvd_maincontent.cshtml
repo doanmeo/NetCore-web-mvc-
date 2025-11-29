@@ -1,0 +1,129 @@
+﻿<div class="wrap">
+
+	<!-- Begin Main -->
+	<div class="main">
+		<div class="content">
+			<!-- Begin New Product -->
+			<div class="content_top">
+				<div class="heading">
+					<h3>VU VAN DOAN</h3>
+				</div>
+				<div class="see">
+					<p><a href="#">See all Products</a></p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="section group">
+
+				
+		@* @foreach (var item in Model)
+			{
+				<div class="grid_1_of_4 images_1_of_4">
+				<a href="preview.html"><img src="~/images/@item.Anh" alt="" /></a>
+					<h2>@item.TenHang </h2>
+					<div class="price-details">
+						<div class="price-number">
+							<p><span class="rupees">@item.Gia</span></p>
+						</div>
+						<div class="add-cart">
+							<h4><a href="preview.html">Add to Cart</a></h4>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			}
+			</div> *@
+					<div id="content-hanghoa">
+						<partial name="_ProductList" model="Model" />
+					</div>
+			<!-- End New Product -->
+			<!-- Begin Feature Products -->
+			<div class="content_bottom">
+				<div class="heading">
+					<h3>Feature Products</h3>
+				</div>
+				<div class="see">
+					<p><a href="#">See all Products</a></p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="section group">
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="preview.html"><img src="~/images/new-pic1.jpg" alt="" /></a>
+					<h2>Lorem Ipsum is simply </h2>
+					<div class="price-details">
+						<div class="price-number">
+							<p><span class="rupees">$849.99</span></p>
+						</div>
+						<div class="add-cart">
+							<h4><a href="preview.html">Add to Cart</a></h4>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="preview.html"><img src="~/images/new-pic2.jpg" alt="" /></a>
+					<h2>Lorem Ipsum is simply </h2>
+					<div class="price-details">
+						<div class="price-number">
+							<p><span class="rupees">$599.99</span></p>
+						</div>
+						<div class="add-cart">
+							<h4><a href="preview.html">Add to Cart</a></h4>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="preview.html"><img src="~/images/new-pic4.jpg" alt="" /></a>
+					<h2>Lorem Ipsum is simply </h2>
+					<div class="price-details">
+						<div class="price-number">
+							<p><span class="rupees">$799.99</span></p>
+						</div>
+						<div class="add-cart">
+							<h4><a href="preview.html">Add to Cart</a></h4>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="preview.html"><img src="~/images/new-pic3.jpg" alt="" /></a>
+					<h2>Lorem Ipsum is simply </h2>
+					<div class="price-details">
+						<div class="price-number">
+							<p><span class="rupees">$899.99</span></p>
+						</div>
+						<div class="add-cart">
+							<h4><a href="preview.html">Add to Cart</a></h4>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			<!-- End Feature Products -->
+		</div>
+	</div>
+	<!-- End Main -->
+</div>
+<!-- End Wrap -->
+	<div style="clear:both; margin-bottom: 20px;"></div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		function showProducts(maLoai) {
+			// Gọi AJAX về Controller
+			$.ajax({
+				url: '/Home/GetProductsByLoai', // Tên Controller và Action
+				type: 'GET',
+				data: { maLoai: maLoai }, // Gửi mã loại sang
+				success: function (response) {
+					// Nhận kết quả trả về (là HTML của _ProductList)
+					// Gán vào thẻ div có id="content-hanghoa"
+					$('#content-hanghoa').html(response);
+				},
+				error: function () {
+					alert("Lỗi tải dữ liệu!");
+				}
+			});
+		}
+	</script>

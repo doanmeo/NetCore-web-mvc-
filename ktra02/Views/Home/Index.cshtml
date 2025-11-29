@@ -1,0 +1,15 @@
+﻿@model IEnumerable<ktra02.Models.HangHoa>
+@{
+    Layout = "vvd_Layout";
+}
+<h2>Vu Van Doan</h2>
+<div id="content-area">
+    @foreach (var item in Model)
+    {
+        <div class="product-item">
+            <img src="~/images/@item.Anh" />
+            <p>@item.TenHang</p>
+            <p>@item.Gia</p>
+        </div>
+    }
+</div>
