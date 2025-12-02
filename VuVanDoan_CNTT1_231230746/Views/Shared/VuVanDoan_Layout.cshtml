@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - VuVanDoan_CNTT1_231230746</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/VuVanDoan_CNTT1_231230746.styles.css" asp-append-version="true" />
+    <link rel="shortcut icon" type="~/image/png" href="images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/css/styles.min.css" />
+</head>
+<body>
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+         data-sidebar-position="fixed" data-header-position="fixed">
+        <!-- LeftSidebar Start -->
+        <partial name="VuVanDoan_LeftSideBar" />
+        <!--  LeftSidebar End -->
+        <div class="body-wrapper">
+            <!--  Header Start -->
+            <partial name="VuVanDoan_Header" />
+            <!--  Header End -->
+            <!-- Main Start -->
+            @RenderBody()
+            <!-- Main End -->
+            <!-- Footer Start -->
+            <partial name="VuVanDoan_Footer" />
+            <!-- Footer End -->
+        </div>
+    </div>
+    <script src="~/libs/jquery/dist/jquery.min.js"></script>
+    <script src="~/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/app.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+﻿<main id="main" class="container-fluid">
+    <div class="card w-100">
+        <div class="card-body p-4">
+            <!-- CardData Start -->
+            <div class="table-responsive" data-simplebar>
+                <table class="table table-borderless align-middle text-nowrap">
+                    <thead>
+                        <tr>
+                            <th scope="col">Chuyến xe</th>
+                            <th scope="col">Ngày</th>
+                            <th scope="col">Giờ</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @* @foreach (var item1 in Model)
+                        { *@
+
+
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="me-4">
+                                            <img src="~/images/cars/item.Anh"
+                                            width="50"
+                                            class="rounded-circle"
+                                            alt="" />
+                                        </div>
+
+                                        <div>
+                                            <h6 class="mb-1 fw-bolder">ViewBang.tuyen</h6>
+                                            <p class="fs-3 mb-0">item.SoXe</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="fs-3 fw-normal mb-0">(typeof date)item.NgayGio</p>
+                                </td>
+                                <td>
+                                    <p class="fs-3 fw-normal mb-0 text-success">
+                                        (typeof date)item.NgayGio
+                                    </p>
+                                </td>
+                                <td>
+                                    <span>Edit|Delete</span>
+                                </td>
+                            </tr>
+                        @* } *@
+
+                        
+                    </tbody>
+                </table>
+            </div>
+            <!-- CardData End -->
+        </div>
+    </div>
+</main>
